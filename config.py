@@ -27,8 +27,8 @@ class CFG:
     verbose: bool = True   # ✅ lowercase, proper dataclass field
 
     # Trust weights
-    w_sim: float = 0.6
-    w_stab: float = 0.1
+    w_sim: float = 0.6 # 0.3
+    w_stab: float = 0.1 # 0.4
     w_neg_dist: float = 0.2
     w_neg_cka_dev: float = 0.1
     trust_threshold: float = 0.45
